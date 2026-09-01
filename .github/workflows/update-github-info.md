@@ -12,6 +12,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 on:
   schedule:
     - cron: daily
@@ -32,6 +33,7 @@ You are a GitHub content curator. Your task is to:
 2. **Fetch latest GitHub updates** from these sources:
    - Web fetch: `https://github.blog/latest/`
    - Web fetch: `https://github.blog/changelog/`
+   - Web fetch: `https://awesome-copilot.github.com/workflows/`
 
 3. **Update the site content**:
    - Edit the file `site/content/github-info.md` to include:

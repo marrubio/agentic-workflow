@@ -2,6 +2,7 @@
 name: update-github-info
 description: Daily workflow to fetch latest GitHub blog updates and update site content
 engine: copilot
+model: gpt-5-mini
 tools:
   web-fetch: null
   edit: null
